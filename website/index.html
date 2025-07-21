@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IF-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Shop website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+        <ul class="navlist" >
+          <img src="WhatsApp Image 2025-06-27 at 7.24.52 PM.jpeg"style="width:  auto; height: 90px; border-radius: 90%; object-fit: cover; border:2px solid black; margin-right:.0px;" class="logo-img" alt="Logo">
+           <li><a href="#Home">Home</a></li>
+           <li><a href="#About">About</a></li>
+           <li><a href="#Services">Services</a></li>
+           <li><a href="#Client">Client</a></li>
+           <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <button>Get Started</button>
+    </div>
+    <section class="hero">
+    <div class="content">
+       <h1>Braded Watch For <span>Luxrious Life !!</span></h1>
+       <p>Lorem ipsum dolor sit amet consecteture adipisicing elit.Laboriosam maiores earum consecteture fugiat architecto dolores</p>
+       <a href="show.html" class="btn">Shop now</a>
+      </div>
+    <div class="Img-box">
+        <img src="c:\Users\shrut\Pictures\website\Watch.png" alt="">
+    </div>
+    </div>
+  </div>
+</section>
+  <!--About  Section-->
+    <section id="About" style="background-color:#fff0f5; padding: 90px;margin-top: 130px; text-align: center;">
+  <h1 style="color:#e22383;">About </h1>
+  <p style="font-size: 18px; max-width: 800px; margin: auto; color: #333;">
+    Welcome to <strong>Branded Watch Shop</strong> Watches can be a powerful way to express your style, sophistication, and even your values.
+  </p>
+  <p style="font-size: 18px; max-width: 800px; margin: 20px auto; color: #333;">
+    We proudly serveSome watch shops showcase luxury timepieces with high-quality craftsmanship, premium materials, and intricate movements, offering a glimpse into the world of horology !
+  </p>
+  <p style="font-size: 18px; max-width: 800px; margin: 20px auto; color: #333;">
+    Whether you prefer classic analog watches, modern digital designs, or smartwatches, a watch shop can provide options to suit different tastes and needs.
+  </p>
+ <p style="font-size: 18px; max-width: 800px; margin: 20px auto; color: #333;">
+  Watch shops often carry a diverse selection of brands, from well-known names to independent watchmakers, offering a variety of styles, price points, and features.
+ </p>
+ <p style="font-size: 18px; max-width: 800px; margin: 20px auto; color: #333;">
+  Unlike online shopping, a watch shop allows you to try on watches, feel their weight, and see how they look in person before making a purchase.
+  </p>
+  <style>
+    #imageContainer, .infoImage {
+      margin: 20px;
+      text-align:center;
+      display:block;
+    }
+    .infoImage {
+      display:none;
+    }
+    .infoImage img {
+      width: 300px;
+      margin: 10px;
+      cursor: pointer;
+      border: 2px solid #aaa;
+      border-radius: 10px;
+    }
+    #infoBox {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+      color: rgb(214, 64, 119);
+    }
+  </style>
+  <div id="imageContainer">
+  <img id="mainImage" src="c:\Users\shrut\Pictures\website\watch.jpeg" alt="Click to see more" onclick="showImages()" style="cursor:pointer;">
+</div>
+
+<div class="infoImage" id="moreImages">
+  <img src="c:\Users\shrut\Pictures\website\Watch2.jpg" onclick="showInfo('Price:-Rs.500/-')">
+  <img src="c:\Users\shrut\Pictures\website\watch4.jpg" onclick="showInfo('Price:-Rs.650/-')">
+  <img src="c:\Users\shrut\Pictures\website\watch3.jpg" onclick="showInfo('Price:-Rs.700/-')">
+  <img src="c:\Users\shrut\Pictures\website\watchh1.jpg" onclick="showInfo('Price:-Rs.1000/-')">
+  <img src="c:\Users\shrut\Pictures\website\watch5.jpg" onclick="showInfo('Price:-Rs.1200/-')">
+  
+</div>
+<div id="infoBox"></div>
+<script>
+  function showImages() {
+    document.getElementById("moreImages").style.display = "block";
+  }
+
+  function showInfo(message) {
+    document.getElementById("infoBox").innerHTML = message;
+  }
+</script>
+<!--services section-->
+
+     <section id="Services" class="services-section">
+  <h2>Our Services</h2>
+  <div class="services-container">
+    <div class="service-box">
+      <h3>Men's Services</h3>
+      <p>Expert repairs for complex watch issues,checks on watch accuracy</p>
+    </div>
+    <div class="service-box">
+      <h3>Ladies Services</h3>
+      <p>Interchangeble straps to customize the watch and maintenance</p>
+    </div>
+    <div class="service-box">
+      <h3>Kids Services</h3>
+      <p>Replacement of batteries for quartz watches,display dates and other functions</p>
+    </div>
+  </div>
+</section>
+<!--Client section-->
+
+<section id="Client" class="Client-details">
+  <h2 style="color:#e22383;">Client Information </h2>
+  <div class="Client-details">
+    <p><strong>Client Name:</strong> John Doe</p>
+    <p><strong>Company Name:</strong> ABC Corporation</p>
+    <p><strong>Phone:</strong> 555-235-5005</p>
+    <p><strong>Email:</strong> [john.doe@abccorp.com](mailto:john.doe@abccorp.com)</p>
+  </div><br>
+  <div class="Client-details">
+    <p><strong>Client Name:</strong> John Smith</p>
+    <p><strong>Company Name:</strong> Luxury Timepieces Inc.</p>
+    <p><strong>Phone:</strong> 525-555-1234</p>
+    <p><strong>Email:</strong> [ john.smith@luxurytimepieces.com]</p>
+  </div><br>
+  <div class="Client-details">
+    <p><strong>Client Name:</strong> Emily Chen</p>
+    <p><strong>Company Name:</strong>Fashion Forward Watches</p>
+    <p><strong>Phone:</strong> 235-575-4321</p>
+    <p><strong>Email:</strong> [emily.chen@fashionforwardwatches.com]</p>
+  </div>
+</section>
+<!-- Contact -->
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Send WhatsApp Message</title>
+  <script>
+    function sendToWhatsApp() {
+      var name = document.getElementById("name").value;
+      var message = document.getElementById("message").value; 
+      var phoneNumber = "9325104521";
+      var url = "https://wa.me/9325104521?text=" 
+          + encodeURIComponent("Hello, my name is " + name + ". " + message);
+
+
+      window.open(url, '_Self');
+    }
+  </script>
+</head> 
+<body>
+
+  <h2 style="color: #e22383;">Contact us</h2>
+  <form onsubmit="sendToWhatsApp(); return false;">
+    <label for="name">Your Name:</label> <br>
+    <input type="text" id="name" required><br><br>
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" required></textarea><br>
+
+    <button type="submit">Send on WhatsApp</button>
+  </form>
+
+</body>
+</html>
+ <section id="Contact">
+      <div class="Contact">
+        <h3>WATCH SHOP</h3>
+        <p>📍Sangli, Maharashtra,India</p>
+        <p>📞 ‪‪+91 9325104521‬</p>
+        <p>📧 Watchshop1234@gmail.com</p>
+      
+      </div>
+    </div>
+  </section>
+  <a href="new.html" ></a>
+  
+<footer style="background-color: #e22383 ;">
+<p class="center-text">Thank you for visiting our website !!</p>
+</footer>
+</body>
+</html>
+
+</body>
+</html>
